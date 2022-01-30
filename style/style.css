@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*main {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    
+}*/
+ header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 113, 67, 0.27);
+    padding: 40px 180px;
+}
+    
+ ul li {
+    display: inline-block;
+    padding: 0 25px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.468947px;
+}
+
+a.list {
+    text-decoration: none;
+    color: #696871;
+    padding: 5px 10px;
+}
+.list:hover {
+    color: #19191B;
+    transition: 0.3s;
+}
+ button {
+    width: 212px;
+    height: 60px;
+    border-radius: 10px;
+    font-family: "DM Sans";
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    cursor: pointer;
+    border: none;
+}
+.btn-header {
+    background-color: #FF7143;
+    color: #fff;
+}
+.btn-header:hover {
+    background-color: #fd5117; 
+    transition: 300ms;
+}
+
+.conteyner {
+    max-width: 1070px;
+    margin: 0 auto;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+    /*display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    padding-top: 100px;*/
+}
+.hero {
+    max-width: 467px;
+    width: 100%;
+    
+}
+h1 {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 77px;
+    letter-spacing: -2.50105px;
+    color: #19191B;
+}
+p {
+    
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.wrapper-btn-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-hero {
+    border: 1px solid #5454D4;
+    color: #fff;
+    background:#5454D4;
+    transition: 0.2s;
+}
+.btn-hero:hover {
+    border: 1px solid #5454D4;
+    color: #5454D4;
+    background: none;
+    transition: 0.2s;
+}
+div.group3 {
+    max-width: 556px;
+    width: 100%;
+}
+h3 {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56316px;
+    color: #19191B;
+    margin-bottom: 38px;
+}
+input {
+    max-width: 302px;
+    width: 100%;
+    height: 60px;
+    border: 1px solid #7087ff;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-family:"DM Sans";
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: -0.531474px;
+    color: #000000;
+    margin-right: 38px;
+}
+span.cart {
+    display: block;
+    margin-top: 32px;
+    margin-bottom: 28px;
+}
+span.text {
+    font-size: 28px;
+    letter-spacing: -1.03448px;
+}
+.pricing__header {
+    max-width: 504px;
+    width: 100%;
+    margin-top: 103px;
+}
+h2{
+    font-family: "DM Sans";
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.87579px;
+    color: #19191B;
+
+}
+.cart1, .cart2, .cart3 {
+    text-align: center;
+    max-width: 330px;
+    width: 100%;
+    padding-bottom: 26px;
+    border-radius: 10px;
+}
+.cart1, .cart3 {
+    background: #F8F8F8;
+    font-family: "DM Sans";
+    font-size: 18px;
+    letter-spacing: -0.562737px;
+    color: #696871;
+}
+.cart2 {
+    background: #FF7143;
+    box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+    font-family: "DM Sans";
+    font-size: 18px;
+    letter-spacing: -0.562737px;
+    color: rgba(255, 255, 255, 0.7);
+}
+#cart2{
+    color: #fff;
+}
+.cart1 button, .cart3 button {
+    background: #fff;
+    max-width: 285px;
+    width: 100%;
+    font-family: DM Sans;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: -0.531474px;
+    color: #5454D4;
+}
+.cart2 button {
+    background: #9F3919;
+    max-width: 285px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: -0.531474px;
+    color: #FFFFFF
+}
+.cart1 button:hover , .cart3 button:hover {
+    color: #fff;
+    background:#5454D4;
+    transition: 0.2s;
+}
+.cart2 button:hover {
+   background: #fff;
+   color: #9F3919; 
+}
+
+
+/*------------footer-------------------------*/
+footer {
+    background: rgba(255, 113, 67, 0.27);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px 0;
+    margin-top: 132px;
+
+}
+
+
